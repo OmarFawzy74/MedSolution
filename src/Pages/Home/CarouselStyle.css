@@ -1,0 +1,19 @@
+.images-size {
+    height: 1140px;
+}
+
+#carousel-section {
+    margin-top: 70px;
+    width: 100%;
+    position: relative;
+    bottom: 60px;
+    z-index: -1;
+}
+
+.carousel-control-prev-icon {
+    background-image: none;
+}
+
+.carousel-control-next-icon {
+    background-image: none;
+}
