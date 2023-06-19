@@ -1,7 +1,40 @@
 .login-form {
+    margin-bottom: 700px;
+    margin-left: 600px;
     position: relative;
-    right: 50px;
-    bottom: 75px;
+    top: 50px;
+}
+
+/* body {
+    background-color: rgb(214, 214, 214);
+} */
+
+/* .login-form-container { 
+    background-color: aqua;
+} */
+
+.login-form form {
+    background-color: rgb(28, 171, 193);
+    position: relative;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.submit-btn {
+    cursor: pointer;
+}
+
+.email-group, .password-group {
+    position: relative;
+    right: 40px;
+}
+
+.btn-primary {
+    position: relative;
+    top: 40px;
+    right: 10px;
+    border-radius: 15px;
+    background-color: rgb(0, 82, 95);
 }
 
 .modal-backdrop.fade {

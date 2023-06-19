@@ -10,10 +10,10 @@ const Footer = () => {
             <span>HOTLINE | 19757</span>
           </div>
           <div className='secondFooterHeader'>
-            <Link to={""}>CONTACT US</Link>
+            <Link to={"/contactus"}>CONTACT US</Link>
           </div>
           <div className='thirdFooterHeader'>
-            <Link to={""}>ABOUT US</Link>
+            <Link to={"/about"}>ABOUT US</Link>
           </div>
         </div>
         <div className='footer-content'>

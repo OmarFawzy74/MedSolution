@@ -12,7 +12,14 @@ const CarouselSection = () => {
       data-aos-mirror="false"
       data-aos-once="true">
       <div id='carousel-section'>
-          <Carousel pause={false}>
+        <img
+          className="d-block w-100 images-size"
+          src="images/eight.jpg"
+          alt="First slide"
+        />
+
+
+          {/* <Carousel pause={false}>
             <Carousel.Item interval={1250}>
                 <img
                 className="d-block w-100 images-size"
@@ -76,7 +83,7 @@ const CarouselSection = () => {
                 alt="Third slide"
                 />
             </Carousel.Item>
-          </Carousel>
+          </Carousel> */}
       </div>
     </div>
   );

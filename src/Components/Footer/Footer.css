@@ -1,6 +1,6 @@
 .footer-section {
     background-color: rgb(0, 46, 53);
-    height: 255px;
+    height: 0px;
     position: relative;
     bottom: 30px;
     padding-bottom: 18%;
@@ -60,7 +60,7 @@
     height: 250px;
     position: relative;
     right: 100px;
-    bottom: 25px;
+    bottom: 24px;
 }
 
 .secondLogo img {
@@ -203,15 +203,13 @@
     color: white;
     z-index: 1;
     transition: all 0.3s ease-in-out;
-}
-
-.secondFooterHeader a {
     text-decoration: none;
 }
 
 .secondFooterHeader a:hover {
+    color: rgb(25, 150, 170);
     position: relative;
-    transform:none;
+    transform: none;
 }
 
 .thirdFooterHeader a {
@@ -230,6 +228,7 @@
 }
 
 .thirdFooterHeader a:hover {
+    color: rgb(25, 150, 170);
     position: relative;
     transform:none;
 }
